@@ -3,6 +3,7 @@ permissions:
 name: Build Native executables
 
 on:
+  workflow_dispatch:
   # must be triggered by build.yml
   workflow_call:
     inputs:
